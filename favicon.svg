@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <!-- Chic Dark Background Gradient -->
+    <linearGradient id="chicDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2b2b2b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <!-- Platinum/Silver Gradient for Icon -->
+    <linearGradient id="platinum" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b0b0b0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#chicDark)" stroke="url(#platinum)" stroke-width="2" />
+
+  <!-- Content Group -->
+  <g transform="translate(50, 52) scale(0.85) translate(-50, -50)">
+    <!-- Crossbones (Behind) -->
+    <path d="M15,50 L85,50" stroke="url(#platinum)" stroke-width="12" stroke-linecap="round" />
+    <path d="M50,15 L50,85" stroke="url(#platinum)" stroke-width="12" stroke-linecap="round" />
+    
+    <!-- Skull Shape -->
+    <!-- Cranium -->
+    <path d="M30,30 Q30,10 50,10 Q70,10 70,30 L70,55 Q70,65 50,65 Q30,65 30,55 Z" fill="url(#platinum)" />
+    <!-- Jaw -->
+    <rect x="40" y="55" width="20" height="15" fill="url(#platinum)" />
+    
+    <!-- Facial Features (Cutout/Dark) -->
+    <!-- Eyes -->
+    <path d="M38,35 Q43,40 48,35" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+    <path d="M52,35 Q57,40 62,35" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- The Iconic Mustache (Whitebeard style - overlaid on skull) -->
+    <path d="M10,35 Q50,65 90,35 Q92,30 85,32 Q50,55 15,32 Q8,30 10,35 Z" fill="white" stroke="#1a1a1a" stroke-width="1" />
+    
+    <!-- Teeth -->
+    <line x1="45" y1="55" x2="45" y2="70" stroke="#1a1a1a" stroke-width="1.5" />
+    <line x1="50" y1="55" x2="50" y2="70" stroke="#1a1a1a" stroke-width="1.5" />
+    <line x1="55" y1="55" x2="55" y2="70" stroke="#1a1a1a" stroke-width="1.5" />
+    <line x1="40" y1="62" x2="60" y2="62" stroke="#1a1a1a" stroke-width="1.5" />
+
+  </g>
+</svg>
