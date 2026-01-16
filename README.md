@@ -4,6 +4,9 @@
 このプロジェクトは、日々のタスク管理を「冒険（クエスト）」に変えるゲーミフィケーション・アプリです。
 This is a gamified task management app that turns your daily to-dos into an "adventure."
 
+## 🚀 Live Demo
+**Check out the live app here: [https://akki8320.github.io/to-do-list/](https://akki8320.github.io/to-do-list/)**
+
 
 ## 🌟 Features / 主な機能
 - **Gamification / ゲーミフィケーション**:
@@ -36,5 +39,6 @@ This app is designed to help users visualize their daily efforts and continue se
 
 ---
 **Created by Aki**
-- 24-year-old University Student (Waseda Univ.)
-- Experience: University of Washington, Marketing/Design Internship in San Francisco.
+- Waseda University (Graduating March 2026)
+- Ex-Marketing Coordinator at btrax (San Francisco)
+- University of Washington Study Abroad（Seattle, Global Business certificates)
